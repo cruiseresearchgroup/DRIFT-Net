@@ -1,0 +1,30 @@
+dataset:
+  value: "fluids.incompressible.PiecewiseConstants"
+num_trajectories:
+  value: 19640
+model_name:
+  value: "T"
+lr:
+  value: 0.00005
+lr_embedding_recovery:
+  value: 0.0005
+lr_time_embedding:
+  value: 0.0005
+weight_decay:
+  value: 0.000001
+lr_scheduler:
+  value: "cosine"
+warmup_ratio:
+  value: 0.0
+early_stopping_patience:
+  value: 25
+num_epochs:
+  value: 40
+batch_size:
+  value: 40
+max_grad_norm:
+  value: 5.0
+use_spectral:
+  value: true
+just_velocities:
+  value: true
