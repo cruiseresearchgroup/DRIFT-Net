@@ -1,10 +1,16 @@
-# DRIFT-Net: Dual-Branch Spectral–Spatial Neural Operator for PDE Forecasting
+# DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning  
 
-DRIFT-Net is a dual-branch spectral–spatial neural operator for efficient PDE forecasting. The architecture couples a spectral branch with an image branch and fuses them per scale for stable long-horizon rollouts.
+> DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning  
+> ICLR 2026 Poster  
+> Jiayi Li, Flora D. Salim  
+> Paper: https://arxiv.org/abs/2509.24868  
+
+DRIFT-Net is a Spectral--Coupled Neural Operator for efficient PDE forecasting. The architecture couples a spectral branch with an image branch and fuses them per scale for stable long-horizon rollouts.
 
 <p align="center">
   <img src="assets/figs.png" alt="DRIFT-Net overview" width="760">
 </p>
+
 
 ## Usage
 
@@ -121,3 +127,14 @@ DRIFT-Net/
 │       └── elliptic/   # Elliptic problems
 └── configs/            # Configuration files
 ```
+
+## Citation
+If you find this repository useful, please cite:
+
+```bibtex
+@article{li2025driftnet,
+  title={DRIFT-Net: A Spectral--Coupled Neural Operator for PDEs Learning},
+  author={Li, Jiayi and Salim, Flora D.},
+  journal={arXiv preprint arXiv:2509.24868},
+  year={2025}
+}
