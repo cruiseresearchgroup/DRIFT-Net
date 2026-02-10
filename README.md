@@ -16,8 +16,8 @@ DRIFT-Net is a Spectral--Coupled Neural Operator for efficient PDE forecasting. 
 We evaluate DRIFT-Net on two high-resolution regimes of the 2D Kolmogorov flow from APEBench under long-horizon autoregressive rollouts, where the model is trained for one-step prediction and iteratively applied for many steps. This setting is challenging because small phase and amplitude errors can accumulate over time, and high-frequency artifacts may destabilize the rollout.
 
 <p align="center">
-  <img src="assets/kolm_turbulent.png" alt="Kolmogorov flow turbulent regime" width="360">
-  <img src="assets/kolm_smooth.png" alt="Kolmogorov flow smooth regime" width="360">
+  <img src="assets/kolm_turbulent.gif" alt="Kolmogorov flow turbulent regime" width="360">
+  <img src="assets/kolm_smooth.gif" alt="Kolmogorov flow smooth regime" width="360">
 </p>
 
 <p align="center">
