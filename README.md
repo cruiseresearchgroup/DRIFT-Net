@@ -24,6 +24,17 @@ We evaluate DRIFT-Net on two high-resolution regimes of the 2D Kolmogorov flow f
 Left: turbulent variant with stronger small-scale structures. Right: smoother variant with weaker small-scale content. We report long-horizon rollout quality on both regimes to assess stability and robustness across different spectral characteristics.
 </p>
 
+## Comparison with POSEIDON SCOT baseline
+
+We compare **DRIFT-Net** with the POSEIDON SCOT baseline under identical training and evaluation settings. All models are trained for one-step prediction and evaluated via long-horizon autoregressive rollout.
+
+<p align="center">
+  <img src="assets/kolm_compare.gif" alt="Kolmogorov flow comparison" width="760">
+</p>
+
+All panels correspond to the same rollout trajectory and share the same spatial resolution and color scale. The animation shows ground truth, SCOT prediction, and DRIFT-Net prediction side by side under a consistent protocol.
+
+
 
 ## Usage
 
