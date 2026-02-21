@@ -17,9 +17,9 @@ lr_scheduler:
 warmup_ratio:
   value: 0.0
 early_stopping_patience:
-  value: 25
+  value: 20
 num_epochs:
-  value: 40
+  value: 20
 batch_size:
   value: 40
 max_grad_norm:
