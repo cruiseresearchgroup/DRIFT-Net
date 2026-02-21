@@ -91,7 +91,10 @@ accelerate launch driftnet/train.py
     --wandb_run_name <WANDB_RUN_NAME>
     --wandb_project_name <WANDB_PROJECT_NAME>
     --checkpoint_path <CHECKPOINT_PATH>
-    --data_path <DATA_PATH>   
+    --data_path <DATA_PATH>
+    --max_num_train_time_steps 20 \
+    --train_time_step_size 1 \
+    --train_small_time_transition 
 ```
 
 For more arguments and options, see the help message of the script:
