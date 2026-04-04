@@ -11,10 +11,6 @@ DRIFT-Net is a Spectral--Coupled Neural Operator for efficient PDE forecasting. 
   <img src="assets/figs.png" alt="DRIFT-Net overview" width="760">
 </p>
 
-# DRIFT-NET Model on Hugging Face
-You can find DRIFT-NET and the checkpoints on HF model library:
-https://huggingface.co/CRUISEResearchGroup/Drift-Net
-
 ## APEBench Kolmogorov flow regimes for long-horizon autoregressive forecasting
 
 We evaluate DRIFT-Net on two high-resolution regimes of the 2D Kolmogorov flow from APEBench under long-horizon autoregressive rollouts, where the model is trained for one-step prediction and iteratively applied for many steps. This setting is challenging because small phase and amplitude errors can accumulate over time, and high-frequency artifacts may destabilize the rollout.
@@ -53,6 +49,10 @@ pip install -e .
 We recommend running the above command in a [virtual environment](https://docs.python.org/3/library/venv.html).
 
 After installation, you can import the models and use the training and inference scripts from everywhere on your system.
+
+### DRIFT-NET Model on Hugging Face
+You can find DRIFT-NET and the checkpoints on HF model library:
+https://huggingface.co/CRUISEResearchGroup/Drift-Net
 
 ### Using the models in your own code
 
