@@ -50,8 +50,8 @@ We recommend running the above command in a [virtual environment](https://docs.p
 
 After installation, you can import the models and use the training and inference scripts from everywhere on your system.
 
-### DRIFT-NET Model on Hugging Face
-You can find DRIFT-NET and the checkpoints on HF model library:
+### DRIFT-Net Model on Hugging Face
+You can find DRIFT-Net and the checkpoints on HF model library:
 https://huggingface.co/CRUISEResearchGroup/Drift-Net
 
 ### Using the models in your own code
